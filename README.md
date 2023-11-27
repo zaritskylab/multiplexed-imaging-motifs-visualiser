@@ -40,8 +40,11 @@ Here are some examples of how the Motif Visualizer can be used to explore and un
    ![Interactive View](path/to/interactive_view_image.png)
 
 2. **Static View Example:**
+   ```
+   python static_view.py path/to/cells.csv path/to/segmented_image.tiff patient_number 
+   ```
+   ![Static View]![graph_overlay_static](https://github.com/YuvalTamir2/multiplexed-imaging-motifs-visualiser/assets/72014577/e649f0b5-53da-4a80-bbf9-cb0b8edd15ee)
 
-   ![Static View](path/to/static_view_image.png)
 
 Replace `path/to/interactive_view_image.png` and `path/to/static_view_image.png` with the paths to your example images.
 
