@@ -1,3 +1,4 @@
+# WORK IN PROGRESS 
 # Motif Visualizer for Multiplexed Imaging
 
 ## Introduction
@@ -26,7 +27,7 @@ To get started with the Motif Visualizer for Multiplexed Imaging, follow these s
    ```
 3. Run the visualizer:
    ```
-   python visualizer.py
+   python plugin.py
    ```
 
 Replace `[repository URL]` and `[repository directory]` with your actual repository URL and directory name.
@@ -48,8 +49,6 @@ Here are some examples of how the Motif Visualizer can be used to explore and un
    ```
    ![Static View]![graph_overlay_static](https://github.com/YuvalTamir2/multiplexed-imaging-motifs-visualiser/assets/72014577/e649f0b5-53da-4a80-bbf9-cb0b8edd15ee)
 
-
-Replace `path/to/interactive_view_image.png` and `path/to/static_view_image.png` with the paths to your example images.
 
 ## Contributing
 
