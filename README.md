@@ -37,13 +37,16 @@ Replace `[repository URL]` and `[repository directory]` with your actual reposit
 Here are some examples of how the Motif Visualizer can be used to explore and understand multiplexed imaging data:
 
 1. **Interactive View Example:**
-   <p float="left">
-  <img src="https://github.com/YuvalTamir2/multiplexed-imaging-motifs-visualiser/assets/72014577/aec5f115-e533-4d5b-ae6d-4e1d6e12ae58" width="900" height = "450" /> 
-  <img src="https://github.com/YuvalTamir2/multiplexed-imaging-motifs-visualiser/assets/72014577/7531bfa2-32fc-4383-865d-038282a5e944" width="350" height = "350" />
-   </p>
-   ![Interactive View](path/to/interactive_view_image.png)
 
-2. **Static View Example:**
+
+    https://github.com/YuvalTamir2/multiplexed-imaging-motifs-visualiser/assets/72014577/af0969c4-b65d-4c70-bb32-45d1191207d3
+
+
+   
+
+
+
+3. **Static View Example:**
    ```
    python static_view.py path/to/cells.csv path/to/segmented_image.tiff patient_number 
    ```
