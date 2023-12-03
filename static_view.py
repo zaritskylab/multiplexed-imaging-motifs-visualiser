@@ -3,6 +3,13 @@ import pandas as pd
 import numpy as np
 import imageio
 import matplotlib.cm as cm
+import sys
+
+csv_path = sys.argv[1]
+img_path = sys.argv[2]
+p_number = sys.argv[3]
+
+
 
 class tissueData():
     def __init__(self, cells_data_csv, cells_data_image_path, mapper):
@@ -138,13 +145,13 @@ mapper_cells = {
             16: 'Immune other'
         }
 
-cells_data = pd.read_csv((r'../TNBC_morph/ONLY_CELLS.csv'))
+cells_data = pd.read_csv(csv_path)
 
 visualizer = tissueData(cells_data, 
-                        r"CellTypes.tiff",
+                        img_path,
                         mapper)
 
-visualizer.main(patinet_number=1, 
+visualizer.main(patinet_number=p_number, 
                 fov=None,
                 motif=motif,
                 is_tagged=mapper_cells,
